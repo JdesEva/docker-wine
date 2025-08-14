@@ -29,7 +29,8 @@ fi
 for APP in "gecko" "mono"; do
 
     # Get the app version required from wine source code
-    APP_VER=$(get_app_ver "${APP}")
+    # APP_VER=$(get_app_ver "${APP}")
+    APP_VER=2.47.4-rc1
 
     # Get the list of files to download
     APP_URL="http://dl.winehq.org/wine/wine-${APP}/${APP_VER}/"
